@@ -1,0 +1,20 @@
+O=" Ore" E=" Erz" K=" Kristall" C=" Crystal" LF="\n" R="Ready"
+F="Failed..."+LF B="Scanning."+LF X="Material:"+LF A="Amount:"+LF
+RA="too far away!" :SA=0 :SR=1 DL=20*5 goto 15 // DL=20 Seconds Disp
+goto :Scanner+4
+if (:RFC>100) then :Scan=RA DL=10 goto 14 end 
+:SA=1 :Index=0 :Scan=LF+B+"." :SN=1 :Scanner_Scr=5 
+if :SN>0 then goto 7 end if (:ScanResults!=2) then goto 14 end
+MA1=:Material-O-E-K-C VO1=:Volume
+:Index=1 :Scan=LF+B+".." :Scanner_Scr=2
+MA2=:Material-O-E-K-C VO2=:Volume
+:Scan=X+LF+MA1+LF+VO1+LF+MA2+LF+VO2 :Scanner=0 :SA=0 goto 14
+:Scan=LF+F :Scanner=0 :SA=0 goto 14
+goto 4
+ScanDisp=DL :SA=0 :SR=1
+ScanDisp-- if(ScanDisp>0) then goto 15 end
+:Scan=LF+R goto 4
+// Laser DeviceFields: Active=SA, Scan=SN, Reset=SR, RFC=Rangefinder
+// Rename Chipwait of the script to Scanner_Scr
+// Field on Memorychip: Scan (also on Textpanel), Button: Scan
+// (c) Nightshade 2021 (Licensed under "MIT-License")

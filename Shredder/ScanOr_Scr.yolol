@@ -1,0 +1,20 @@
+:STP=30 goto :MiningMode+1
+L=:SWI :STP=L goto :MiningMode+1
+goto 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT

@@ -1,0 +1,10 @@
+SpeedMode		0
+SM				100
+SMM				0
+Battery			0
+AprOld			0
+Scan			""
+Safe			""
+Info			""
+TurretPitch		0
+RA				0
