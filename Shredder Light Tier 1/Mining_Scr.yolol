@@ -1,0 +1,20 @@
+:LTP=0 :CTP=0 :LTR=0 :CTR=0 :CTP=0 :DTP=0 goto :MiningMode+1
+F=:RFC+:RA L=:WI :TurretPitch=:LTPC
+if L>140 then L=140 end :CTP=L :LTP=L :DTP=90 goto :MiningMode+1
+goto 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT
