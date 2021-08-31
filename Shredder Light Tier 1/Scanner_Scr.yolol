@@ -16,5 +16,5 @@ ScanDisp-- if(ScanDisp>0) then goto 15 end
 :Scan=LF+R goto 4
 // Laser DeviceFields: Active=SA, Scan=SN, Reset=SR, RF=Rangefinder
 // Rename Chipwait of the script to Scanner_Scr
-// Field on Memorychip: Scan (also on Textpanel), Button: Scaner
+// Field on Memorychip: Scan (also on Textpanel), Button: Scanner
 // (c) Nightshade 2021 (Licensed under "MIT-License")
