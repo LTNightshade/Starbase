@@ -1,4 +1,4 @@
-x/=:Aim :RA=:RangeAdjust if :RF<30 then :RFC=:RF-2 end goto 1
+x/=:MiningMode :RA=:RangeAdjust if :RF<30 then :RFC=:RF-2 end goto 1
 :RangeAdjust=0 :RA=0 :RFC=30 goto 1
 goto 1
 

@@ -11,7 +11,7 @@ MA2=:Material-O-E-K-C VO2=:Volume
 :Scan=X+MA1+LF+VO1+LF+MA2+LF+VO2 DL=100 :Scanner=0 :SA=0 goto 14
 :Scan=LF+F :Scanner=0 :SA=0 goto 14
 goto 4
-ScanDisp=DL :SA=0 :SR=1
+:Scanner=0 ScanDisp=DL :SA=0 :SN=0 :SR=1
 ScanDisp-- if(ScanDisp>0) then goto 15 end
 :Scan=LF+R goto 4
 // Laser DeviceFields: Active=SA, Scan=SN, Reset=SR, RF=Rangefinder

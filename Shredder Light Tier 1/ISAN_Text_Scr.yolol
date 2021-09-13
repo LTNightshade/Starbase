@@ -1,4 +1,4 @@
-:ISAN="\nX: "+:X+"\nY: "+:Y+"\nZ: "+:Z+"\nV: "+:V goto 1
+:ISAN="\nX: "+:XX+"\nY: "+:YY+"\nZ: "+:ZZ+"\nV: "+:V goto 1
 
 
 

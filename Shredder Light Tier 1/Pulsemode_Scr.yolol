@@ -1,4 +1,4 @@
-if :MiningMode then goto :pulse else :Collector=0 goto 1 end
+if :MiningMode then goto :pulse+2 else :Collector=0 goto 1 end
 :ml1=:ml :ml2=:ml goto 1
 :ml1=:ml :ml2=0 if NOT :ml then goto 1 end
 
