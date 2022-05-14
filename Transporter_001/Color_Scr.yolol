@@ -1,0 +1,5 @@
+:RFC=4-2*:RF :PLC=4-2*:PLOn :CRC=4-2*:CR :AimC=4-2*:Aim goto 1
+goto 1
+
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT

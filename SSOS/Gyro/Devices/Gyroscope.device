@@ -1,0 +1,12 @@
+Device : Gyroscope
+
+Original Fielname	:	Renamed Fieldname	: Value
+
+GyroCalibrate		:	GCal				: 0
+GyroPitch			:	GR					: 0
+GyroYaw				:	GY					: 0
+GyroRoll			:	GP					: 0
+
+
+Gyro is buildin 90° turned to the right
+(arrows showing to the right ->)

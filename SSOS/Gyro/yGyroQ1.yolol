@@ -1,0 +1,20 @@
+a=:PB1 x=abs(:P-:PXB) x=abs(x-(x>10)*180)  c=230 goto(x>5ANDx<11)+1
+:GL2=2 :GX2=1 :GY2=3 :GH2=c :GI2=a :GY2=13-x :GI2=:PTB+:PB2+:PTB goto1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (c) Softies 2022 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT

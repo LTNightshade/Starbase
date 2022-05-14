@@ -1,0 +1,19 @@
+a=:RFL-12 b=:RFR-12 c=:RFF m=(a*(a<=b))+(b*(b<a)) 
+f=(m*(m<=c))+(c*(c<m)) :RangeFront=f*:RF :RangeBottom=:RFB*:RF goto 1
+goto 1
+
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT
+
+
+
+
+
+
+
+
+
+
+
+
+

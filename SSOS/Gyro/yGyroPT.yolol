@@ -1,0 +1,20 @@
+m="-" p="+" n="0" t=90
+x=:P-t a=abs(x) ifx<0thend=melsed=pend ifa<10thend+=nend :PT=d+a goto2
+goto 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (c) Softies 2022 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT

@@ -1,0 +1,20 @@
+m="-" p="+" n="0"
+x=:PXB-90 a=abs(x) ifx<0thend=melsed=pend ifa<10thend+=nend :PTB=d+a
+goto 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (c) Softies 2022 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT

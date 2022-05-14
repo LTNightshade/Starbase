@@ -1,0 +1,17 @@
+Device : Grid Display
+
+Original Fielname	:	Renamed Fieldname	: Value
+
+GridDisplayOnState	: 	GridDisplayOnState	: 1
+CursorX 			:	GX1					: 1
+CursorY 			:	GY1					: 1
+ShowCursor			:	ShowCursor			: 0
+Input				:	GI1					: ""
+MoveCursor			:	MoveCursor			: 0
+ClearLayerGrid		:	GC1					: 0
+GridLayerTextHue	:	GH1					: 176
+SelectedLayer		:	GL1					: 1
+LayerGridSize		:	LayerGridSize		: 25
+LayerGridOffsetX	:	LayerGridOffsetX	: 0
+LayerGridOffsetY	:	LayerGridOffsetY	: 0
+

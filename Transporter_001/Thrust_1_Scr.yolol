@@ -1,0 +1,4 @@
+t ="\n01:"+:ThrusterCurrentThrust01+"\n02:"+:ThrusterCurrentThrust02
+t+="\n03:"+:ThrusterCurrentThrust03+"\n04:"+:ThrusterCurrentThrust04
+t+="\n05:"+:ThrusterCurrentThrust05+"\n06:"+:ThrusterCurrentThrust06
+:T1=t goto 1

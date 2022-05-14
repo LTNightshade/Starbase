@@ -1,0 +1,17 @@
+Device : Grid Display
+
+Original Fielname	:	Renamed Fieldname	: Value
+
+GridDisplayOnState	: 	GridDisplayOnState	: 1
+CursorX 			:	GX4					: 1
+CursorY 			:	GY4					: 1
+ShowCursor			:	ShowCursor			: 0
+Input				:	GI4					: ""
+MoveCursor			:	MoveCursor			: 0
+ClearLayerGrid		:	GC4					: 0
+GridLayerTextHue	:	GH4					: 176
+SelectedLayer		:	GL4					: 1
+LayerGridSize		:	LayerGridSize		: 25
+LayerGridOffsetX	:	LayerGridOffsetX	: 0
+LayerGridOffsetY	:	LayerGridOffsetY	: 0
+

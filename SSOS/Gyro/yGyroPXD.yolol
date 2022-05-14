@@ -1,0 +1,20 @@
+x=:P%5 d=:PXA+10+((x==0)*5) d=d%180 :PXD=d goto 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (c) Softies 2022 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT
