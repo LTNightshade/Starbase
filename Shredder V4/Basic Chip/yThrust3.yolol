@@ -1,0 +1,20 @@
+:GX=13 :GY=21 :GI="46:"+:ThrusterCurrentThrust46+"   "
+:GX=13 :GY=22 :GI="47:"+:ThrusterCurrentThrust47+"   "
+:GX=13 :GY=23 :GI="48:"+:ThrusterCurrentThrust48+"   "
+:GX=13 :GY=24 :GI="49:"+:ThrusterCurrentThrust49+"   "
+:GX=13 :GY=25 :GI="Ma:"+:MainThrust+"   "
+:GX=1 :GY=21 :GI="21:"+:ThrusterCurrentThrust21+"   "
+:GX=1 :GY=22 :GI="22:"+:ThrusterCurrentThrust22+"   "
+:GX=1 :GY=23 :GI="23:"+:ThrusterCurrentThrust23+"   "
+:GX=1 :GY=24 :GI="24:"+:ThrusterCurrentThrust24+"   "
+:GX=1 :GY=25 :GI="25:"+:ThrusterCurrentThrust25+"   "
+goto 1
+
+
+
+
+
+
+
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT

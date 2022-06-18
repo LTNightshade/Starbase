@@ -1,0 +1,20 @@
+u=0 r=0 a=0 b=0 z=0 d="" t=""
+u=(u/100)*100 k=r*:S/1000 k=(k/100)*100 r/=3600
+if (r>24) then z=r/24 d=" d" else z=r d=" h" end z=(z/100)*100
+t=u + " l/s\nFlugzeit:\n" + z + d + "\nReichweite: " + k + " km"
+:HydConsum=t
+b=:Hydrogen u=a-b if u<=0 then r=0 else r=(b/u) end a=b goto 2
+goto 1
+
+
+
+
+
+
+
+
+
+
+
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT

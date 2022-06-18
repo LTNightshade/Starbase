@@ -1,0 +1,20 @@
+LL=12.94 LR=8.08 :TTP4=0 :TTP5=0 :TTP6=0 goto :MM+1
+x/=:MM F=:RF W=ATAN((LL-F)/LR)+90-:LW :TTP4=:LW+(1-:TBO4)*W
+:TTP5=:LW+(1-:TBO5)*W :TTP6=:LW+(1-:TBO6)*W :tbPos=:LZ goto :MM+1
+:TTP4=0 :TTP5=0 :TTP6=0 goto 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT

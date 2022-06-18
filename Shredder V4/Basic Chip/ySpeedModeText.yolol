@@ -1,0 +1,19 @@
+s="\nMax. Speed:\n" goto 2+(:Slow)+(:Turtle*2)
+s +="Fast\nMainthr.: " goto 5
+s +="Slow\nMainthr.: " goto 5
+s +="Turtle\nMainthr.: " goto 5
+if (:MT) then s += "enabled"  else s += "disabled" end
+:SpeedMode = s goto 1
+
+
+
+
+
+
+
+
+
+
+
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT

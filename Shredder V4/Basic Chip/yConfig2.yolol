@@ -1,0 +1,19 @@
+goto (:OLD*3)+(:Reset*3)+(:Save*4)
+goto 1
+:Reset=0 :New_Value=:Org :Actual_Value=:Org :old=0 goto 1
+goto :Page+4
+:SV=:New_Value :save=0 :old=0 :org=:sv goto 3
+:TV=:New_Value :save=0 :old=0 :org=:tv goto 3
+:LZ=:New_Value :save=0 :old=0 :org=:lz goto 3
+:LW=:New_Value :save=0 :old=0 :org=:lw goto 3
+:AMI=:New_Value :save=0 :old=0 :org=:ami goto 3
+:AMM=:New_Value :save=0 :old=0 :org=:amm goto 3
+:MMG=:New_Value :save=0 :old=0 :org=:MMG goto 3
+goto 1
+
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT
+
+
+// Default Values
+:SV=50 :TV=15 :LZ=7 :LW=70 :AMI=15 :AMM=75 :MMG=0

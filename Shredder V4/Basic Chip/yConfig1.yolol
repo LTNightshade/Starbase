@@ -1,0 +1,19 @@
+:CL=2 :CG1=12 :CG2=12 :CG3=12 :CG4=12 :LO12=12 :CH=80 :yConfig=3
+:CL=1 :CG=12 :LO12=12 :CX=1 :CY=1 :CH=190 :CI=:RA1+:RA2+:RA3+:RA4+:RA5
+:CL=2 :CG1=12 :CG2=12 :CG3=12 :CG4=12 :LO12=12 
+:CL=2 :CG1=12 :CG2=12 :CG3=12 :CG4=12 :LO12=12 
+:CH=80 goto :PAGE+8
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT
+goto 17
+:CL=2 :CX=4 :CY=21 :CI=:TX1 :ORG=:SV goto 17
+:CL=2 :CX=4 :CY=21 :CI=:TX2 :ORG=:TV goto 17
+:CL=2 :CX=4 :CY=21 :CI=:TX3 :ORG=:LZ goto 17
+:CL=2 :CX=4 :CY=21 :CI=:TX4 :ORG=:LW goto 17
+:CL=2 :CX=4 :CY=21 :CI=:TX5 :ORG=:AMI goto 17
+:CL=2 :CX=4 :CY=21 :CI=:TX6 :ORG=:AMM goto 17
+:CL=2 :CX=4 :CY=21 :CI=:TX7 :ORG=:MMG goto 17
+goto 17
+:old=(p!=:page) p=:Page :Page=p+(:Next)+(:Prev*-1) :Prev=0 :Next=0 
+if :Page<=0 then :Page=7 end if :Page>=8 then :Page=1 end goto 3
+goto 3

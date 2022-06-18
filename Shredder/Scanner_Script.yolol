@@ -16,5 +16,5 @@ x/=:Scanner F=:RFC+:RA :STP=ATAN((LL-F)/LR)+120 goto :Aim+1
 
 
 
-// (c) Nightshade 2021 (Licensed under "MIT-License")
+// (c) Nightshade 2022 (Licensed under "MIT-License")
 // https://opensource.org/licenses/MIT

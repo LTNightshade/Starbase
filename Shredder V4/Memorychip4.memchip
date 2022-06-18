@@ -1,0 +1,10 @@
+RA1	"************************ *                      * *       Shredder       * *          V4          * *                      * "
+RA2	"*   Config Terminal    * *                      * *   Switch the pages   * *    and change the    * *    values as you     * "
+RA3	"*      like them       * *                      * *   Just change the    * *     value of the     * *     Panel  below     * "
+RA4	"*     and hit save     * *                      * *   Current Value to   * *        change        * *                      * "
+RA5	"*>                    <* *                      * *                      * ************************ "
+Page	1
+OLD	0
+ORG	0
+LO12	12
+CH	0

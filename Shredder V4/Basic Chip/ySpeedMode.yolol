@@ -1,0 +1,20 @@
+:MUL=(:Slow*:SV)+(:Turtle*:TV)+((:SLOW==0 AND :Turtle==0)*100) goto 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT

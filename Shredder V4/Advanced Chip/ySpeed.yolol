@@ -1,0 +1,19 @@
+q=20 p=q-1 :speed=(:speed*p+:S)/q :v=:speed-:speed%1 goto1
+
+// Speed Avg - by Oloneus
+// licensed under MIT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

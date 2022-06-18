@@ -1,0 +1,29 @@
+Source Side:
+Devicefield -> Enable : MT 1
+Yolol Network -> Ship Network
+
+MTS	0
+ChipField2	0
+ChipField3	0
+ChipField4	0
+ChipField5	0
+ChipField6	0
+ChipField7	0
+ChipField8	0
+ChipField9	0
+ChipField10	0
+
+Destination Side:
+Devicefield -> Enable : MT 1
+Yolol Network -> Ship Network
+
+MainThrusterState	0
+ChipField2	0
+ChipField3	0
+ChipField4	0
+ChipField5	0
+ChipField6	0
+ChipField7	0
+ChipField8	0
+ChipField9	0
+ChipField10	0

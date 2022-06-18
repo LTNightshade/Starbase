@@ -1,0 +1,20 @@
+LL=4.83 LR=4.70 :STR=0 :STP=30 goto :MM+1
+x/=:Scanner F=:RF+:RA :STP=ATAN((LL-F)/LR)+120 goto :MM+1
+:STP=30 goto 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT

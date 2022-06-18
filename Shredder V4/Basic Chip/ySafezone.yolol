@@ -1,0 +1,20 @@
+s=:Safezone :SS=1-s :SSC=s*2 :SSB=:ID*(s==0)  goto 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT

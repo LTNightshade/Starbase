@@ -1,0 +1,20 @@
+:AMAX=(:AMI*:AIM)+((1-:AIM)*:AMM) :AMIN=-:AMAX :AIMC=:AIM*2 :LC=0
+goto 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT

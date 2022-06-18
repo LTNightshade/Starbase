@@ -1,0 +1,20 @@
+:Battery=:Battery1+:Battery2+:Battery3+:Battery4+:Battery5+:Battery6
+F=(60000-:Battery)/100+(:MM*:MMG) :GeneratorUnitRateLimit=F goto 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (c) Nightshade 2021 (Licensed under "MIT-License")
+// https://opensource.org/licenses/MIT
