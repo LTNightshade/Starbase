@@ -1,20 +1,20 @@
 O=" Ore" E=" Erz" K=" Kristall" C=" Crystal" LF="\n" R="Ready"
 F="Failed..."+LF B="Scanning.."+LF X="Material:"+LF A="Amount:"+LF
-RA="too far away!" :SA=0 :SR=1 DL=1 goto 15 // DL=20 Seconds
+RA="too far away!" S=1728 :SA=0 :SR=1 DL=10 goto 14
 if O!=" Ore" then goto 1 end goto :Scanner+4
 if (:RF>100) then :Scan=RA DL=10 goto 14 end 
 :SA=1 :Index=0 :Scan=LF+B :SN=1 :yScanner=10 
 if (:ScanResults!=2) then DL=40 goto 12 end
-MA1=:Material-O-E-K-C VO1=:Volume
-:Index=1 :Scan=LF+B :Scanner_Scr=2
-MA2=:Material-O-E-K-C VO2=:Volume
+MA1=:Material-O-E-K-C VO1=:Volume/S VO1=VO1/100*100 VO1+=" St"
+:Index=1 :Scan=LF+B :yScanner=2
+MA2=:Material-O-E-K-C VO2=:Volume/S VO2=VO2/100*100 VO2+=" St"
 :Scan=X+MA1+LF+VO1+LF+MA2+LF+VO2 DL=100 :Scanner=0 :SA=0 goto 14
 :Scan=LF+F :Scanner=0 :SA=0 goto 14
 goto 4
-ScanDisp=DL :SA=0 :SR=1 :Scanner=0
-ScanDisp-- if(ScanDisp>0) then goto 15 end
+:SA=0 :SR=1 :Scanner=0
+goto 16-(DL-->0)
 :Scan=LF+R :Scanner=0 goto 4
-// Laser DeviceFields: Active=SA, Scan=SN, Reset=SR, RFC=Rangefinder
+// Laser DeviceFields: Active=SA, Scan=SN, Reset=SR, RF=Rangefinder
 // Rename Chipwait of the script to Scanner_Scr
 // Field on Memorychip: Scan (also on Textpanel), Button: Scanner
 // (c) Nightshade 2021 (Licensed under "MIT-License")
